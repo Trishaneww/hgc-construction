@@ -45,7 +45,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center mt-28 gap-12">
+    <div className="flex flex-col items-center justify-center gap-12 bg-sky-100 pb-28">
       <div className="flex flex-col gap-2 items-center justify-center">
         <p className="text-2xl font-semibold lg:text-6xl">Receive a Free Estimate</p>
         <p>Have a project in mind that you think we would be a great fit for? We’d love to connect with you and learn more!</p>

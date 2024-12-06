@@ -14,7 +14,7 @@ const Faq = () => {
     <div className="mt-20 lg:mt-40 scroll-smooth">
         <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
             <h1 className="text-slate-800  text-3xl md:text-5xl lg:text-6xl font-semibold">Have Any Questions?</h1>
-            <p className="text-slate-500 w-full lg:text-xl">Have any further questions? Contact us at <span className="text-blue-900"><Link href="/">hydraguardconstruction@gmail.com</Link></span></p>
+            <p className="text-slate-500 w-full lg:text-xl">Have any further questions? Contact us at <span className="text-blue-700"><Link href="/">hydraguardconstruction@gmail.com</Link></span></p>
         </section>
 
         <div className="flex justify-center gap-6 w-full p-4">

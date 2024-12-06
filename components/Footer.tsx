@@ -5,10 +5,10 @@ import '../styles/global.scss';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-40 p-10 w-full  bg-slate-900 mt-20 footer py-20">
+    <div className="flex flex-col xl:justify-center xl:items-center gap-40 p-10 w-full  bg-slate-900 footer py-20">
         <section className="flex flex-col gap-4 justify-start -mb-20 xl:mb-0 footer-header">
-            <h1 className="text-slate-50 font-bold text-3xl xl:text-4xl">Figment Studios</h1>
-            <p className="text-slate-50 mb-9 xl:mb-0 text-lg">@2024 Figment Studios. All rights reserved</p>
+            <h1 className="text-slate-50 font-bold text-3xl xl:text-4xl">Hydra Construction</h1>
+            <p className="text-slate-50 mb-9 xl:mb-0 text-lg">@2024 HGC Construction. All rights reserved</p>
         </section>
 
         <section className="flex gap-12 items-start flex-wrap">
