@@ -12,9 +12,8 @@ const Services = () => {
 
         <section className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 mt-20">
             {servicesData.map((services, idx) => (
-                <div className="flex flex-col w-full md:w-[370px] h-[500px] lg:h-[450px] bg-white rounded-xl border-[1px] border-gray-300 p-4 pt-12 gap-2" key={idx}>
-                    <p className="text-center text-2xl font-bold">{services.title}</p>
-                    <Image
+                <div className="flex flex-col w-full md:w-[370px] h-[500px] lg:h-[480px] bg-white rounded-xl border-[1px] border-gray-300 p-4 pt-2 gap-2" key={idx}>
+                       <Image
                         src={services.src}
                         width={1000}
                         height={1000}
@@ -22,6 +21,7 @@ const Services = () => {
                         className="rounded-2xl"
                        
                     />
+                    <p className="text-2xl font-bold">{services.title}</p>
                     <p>{services.desc}</p>
                     <p>{services.price}</p>
                 </div>
