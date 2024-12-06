@@ -33,6 +33,7 @@ const Navbar = () => {
                   width={300}
                   height={300}
                   alt="hydra construction logo"
+                  className="-ml-6 mt-[1px]"
                 />
               </span>
           </Link>
@@ -53,7 +54,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Link href="/">
-          <Button className="w-[180px] h-[45px] text-lg mt-4 bg-[#0860B3]">Contact</Button>
+          <Button className="w-[180px] h-[45px] text-lg mt-2 bg-[#0860B3] hidden lg:flex">Contact</Button>
           </Link>
 
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">

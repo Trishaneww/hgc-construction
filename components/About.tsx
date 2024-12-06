@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 const About = () => {
   return (
-    <div className="flex justify-center items-center px-20 gap-12 mt-28 pb-28">
+    <div className="flex flex-col lg:flex-row justify-center items-center px-6 lg:px-20 gap-12 mt-28 pb-28">
          <Image
           src="/assets/images/aboutus.png"
           width={650}
@@ -13,9 +13,9 @@ const About = () => {
         />
 
 
-        <section className="flex flex-col gap-2 w-[25%]">
+        <section className="flex flex-col gap-2 lg:w-[25%]">
             <div className="flex flex-col gap-2">
-                <p className="text-base lg:text-xl font-extrabold text-blue-700">ABOUT US</p>
+                <p className="text-base lg:text-xl font-extrabold text-[#0860B3]">ABOUT US</p>
                 <p className="font-bold text-2xl lg:text-5xl">We’ll save you money & time on plumbing repairs!</p>
             </div>
             <div className="flex flex-col gap-4 mt-6">

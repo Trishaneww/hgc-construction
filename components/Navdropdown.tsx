@@ -18,7 +18,7 @@ import { resources } from "@/data"
  
 export function NavDropDown() {
   return (
-    <NavigationMenu className="mt-8">
+    <NavigationMenu className="mt-8 hidden lg:flex">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="text-base font-normal">Services</NavigationMenuTrigger>

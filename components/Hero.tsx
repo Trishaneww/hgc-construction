@@ -35,10 +35,10 @@ const Hero = () => {
     }
   }
   return (
-    <div className="flex flex-col items-center justify-center mt-20">
-      <div className="flex w-full">
-        <section className="flex flex-col justify-center w-2/3 gap-4 pl-56">
-          <p className="text-7xl font-bold">Your Trusted Water Proofing Company</p>
+    <div className="flex flex-col items-center justify-center mt-20 bg-white">
+      <div className="flex flex-col lg:flex-row w-full">
+        <section className="flex flex-col justify-center items-center lg:items-start lg:w-2/3 text-center lg:text-left gap-4 lg:pl-64 mt-20 lg:mt-0 mb-20 lg:mb-0">
+          <p className="text-2xl lg:text-7xl font-bold">Your Trusted Water Proofing Company</p>
           <p>At HydraGuard Construction, we specialize in protecting your home or business from water damage with expert waterproofing solutions. </p>
           <Button className="w-[300px] h-[52px] text-lg bg-[#0860B3]">Get a free estimate</Button>
         </section>
@@ -50,16 +50,17 @@ const Hero = () => {
         />
       </div>
 
-      <div className="bg-sky-100 flex w-full justify-center items-center py-12">
+      <div className="bg-sky-100 flex flex-col lg:flex-row w-full justify-center items-center py-12 px-6">
         <Image
           src="/assets/images/logo2.png"
           width={400}
           height={400}
           alt="homepage image" 
+          className="-ml-10 -mt-20 lg:mt-0"
         />
 
-        <section className="flex flex-col gap-2 w-1/3">
-          <p className="font-bold text-xl lg:text-4xl">Welcome to Blue Water Plumbing & Mechanical Services in Oakville, ON</p>
+        <section className="flex flex-col gap-2 lg:w-1/3 -mt-20 lg:mt-0">
+          <p className="font-bold text-xl lg:text-4xl">Welcome to Hydra Guard Construction in Oakville, ON</p>
           <p className="text-base lg:text-lg">Our knowledgeable, fully-insured & licensed plumbers arrive with fully-equipped service vehicles ensuring your job is done right the the first time.</p>
           <form className="flex flex-wrap justify-center lg:justify-start w-full gap-4 mt-6" onSubmit={sendEmail}>
           <div className="flex flex-col items-start w-full md:w-[270px]">

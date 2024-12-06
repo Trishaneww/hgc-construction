@@ -45,15 +45,15 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center gap-12 bg-sky-100 pb-28">
-      <div className="flex flex-col gap-2 items-center justify-center">
+    <div className="flex flex-col items-center justify-center gap-12 bg-sky-100 pb-28 py-28">
+      <div className="flex flex-col gap-2 items-center justify-center p-2">
         <p className="text-2xl font-semibold lg:text-6xl">Receive a Free Estimate</p>
-        <p>Have a project in mind that you think we would be a great fit for? We’d love to connect with you and learn more!</p>
+        <p className="text-base lg:text-lg w-[90%] text-center">Have a project in mind that you think we would be a great fit for? We’d love to connect with you and learn more!</p>
       </div>
     <form className="w-full lg:w-4/5 flex flex-col items-center gap-4 -mt-4" onSubmit={sendEmail}>
-        <div className="flex w-5/6 justify-center items-center gap-2 mt-8">
-        <div className="flex flex-col items-start w-5/6 gap-2">
-            {/* <p className="flex justify-start text-slate-900">Name</p> */}
+        <div className="flex flex-col lg:flex-row w-5/6  justify-start lg:justify-center items-start lg:items-center gap-2 mt-8">
+        <div className="flex flex-col items-start w-full lg:w-5/6 gap-2">
+            <p className="flex justify-start text-slate-900">Full Name</p>
             <input 
               type="text" 
               name="full_name"
@@ -62,8 +62,8 @@ const ContactForm = () => {
               <p className="ml-1 text-red-600">{nameError}</p>
           </div>
 
-          <div className="flex flex-col items-start w-5/6 gap-2">
-            {/* <p className="flex justify-start text-slate-900">Email</p> */}
+          <div className="flex flex-col items-start w-full lg:w-5/6 gap-2">
+            <p className="flex justify-start text-slate-900">Email</p>
             <input 
               type="text" 
               name="email" 
@@ -72,8 +72,8 @@ const ContactForm = () => {
               <p className="ml-1 text-red-600">{emailError}</p>
           </div>
 
-          <div className="flex flex-col items-start w-5/6 gap-2">
-            {/* <p className="flex justify-start text-slate-900">Email</p> */}
+          <div className="flex flex-col items-start w-full lg:w-5/6 gap-2">
+            <p className="flex justify-start text-slate-900">Address</p>
             <input 
               type="text" 
               name="email" 
@@ -93,10 +93,10 @@ const ContactForm = () => {
           </div> */}
           
           <div className="flex flex-col items-start w-5/6 gap-2">
-            {/* <p className="flex justify-start text-slate-900">Notes (optional)</p> */}
+            <p className="flex justify-start text-slate-900">Message</p>
             <textarea placeholder="Tell us more about your project" name="message" className="w-full border-[1px] h-[230px] border-slate-200 p-2 rounded-md outline-none"/>
           </div>      
-          <Button type="submit" className="bg-slate-900 h-[52px] text-lg px-10">Request a Free Estimate</Button>
+          <Button type="submit" className="bg-slate-900 h-[60px] text-lg px-10 mt-6">Request a Free Estimate</Button>
         </form>
     </div>
   )
