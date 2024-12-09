@@ -71,7 +71,7 @@ const ContactForm = () => {
 
 
       <form className="w-full flex flex-col items-center xl:items-start  gap-4 -mt-4 px-2" onSubmit={sendEmail}>
-        <div className="flex flex-col lg:flex-row w-5/6  justify-start lg:justify-center items-start lg:items-center gap-2 mt-8">
+        <div className="flex flex-col lg:flex-row w-5/6  xl:w-full justify-start lg:justify-center items-start lg:items-center gap-2 mt-8">
         <div className="flex flex-col items-start w-full lg:w-5/6 gap-2">
             <p className="flex justify-start text-slate-900">Full Name</p>
             <input 
@@ -93,7 +93,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row w-5/6  justify-start lg:justify-center items-start lg:items-center gap-2">
+        <div className="flex flex-col lg:flex-row w-5/6 xl:w-full justify-start lg:justify-center items-start lg:items-center gap-2">
         <div className="flex flex-col items-start w-full lg:w-5/6 gap-2">
             <p className="flex justify-start text-slate-900">Phone</p>
             <input 
@@ -123,7 +123,7 @@ const ContactForm = () => {
               className="w-full border-[1px] h-[44px] border-slate-200 p-2 rounded-md outline-none"/>
           </div> */}
           
-          <div className="flex flex-col items-start w-5/6 gap-2">
+          <div className="flex flex-col items-start w-5/6 xl:w-full gap-2">
             <p className="flex justify-start text-slate-900">Message</p>
             <textarea placeholder="Tell us more about your project" name="message" className="w-full border-[1px] h-[230px] border-slate-200 p-2 rounded-md outline-none"/>
           </div>      
