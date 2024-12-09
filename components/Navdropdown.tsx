@@ -18,14 +18,14 @@ import { resources } from "@/data"
  
 export function NavDropDown() {
   return (
-    <NavigationMenu className="mt-[1.8rem] hidden lg:flex">
+    <NavigationMenu className="mt-[1.3rem] hidden lg:flex bg-slate-900">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="text-base font-normal bg-slate-900 text-slate-50">Services</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-wrap w-[200px] md:w-[250px]  gap-1 p-2 md:p-4">
+            <ul className="flex flex-wrap w-[200px] md:w-[250px] gap-1 p-2 md:p-4 bg-slate-900">
               {resources.map((component) => (
-                <a href={component.link} key={component.id} target="_blank" className="w-full lg:w-4/5 p-2">{component.title}</a>
+                <a href={component.link} key={component.id} className="w-full lg:w-4/5 p-2 text-slate-50">{component.title}</a>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -45,13 +45,13 @@ const ListItem = React.forwardRef<
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors  hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             className
           )}
           {...props}
         >
           <div className="text-base font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground text-slate-900">
             {children}
           </p>
         </a>

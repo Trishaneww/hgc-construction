@@ -11,14 +11,14 @@ import Link from 'next/link'
 
 const Faq = () => {
   return (
-    <div className="mt-20 lg:mt-40 scroll-smooth">
-        <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
+    <div className="mt-20 lg:mt-24 pb-36 scroll-smooth bg-slate-100">
+        <section className="flex flex-col gap-6 items-center mb-10 text-center w-full">
             <h1 className="text-slate-800  text-3xl md:text-5xl lg:text-6xl font-semibold">Have Any Questions?</h1>
             <p className="text-slate-500 w-full lg:text-xl">Have any further questions? Contact us at <span className="text-blue-700"><Link href="/">hydraguardconstruction@gmail.com</Link></span></p>
         </section>
 
         <div className="flex justify-center gap-6 w-full p-4">
-            <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-3/5">
+            <Accordion type="single" collapsible className="flex flex-col gap-4 w-full md:w-4/5 xl:w-3/5">
             {/* <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 7'}>
                 <AccordionTrigger className="lg:text-xl text-left">What if I don&apos;t have a company name or URL yet?</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">

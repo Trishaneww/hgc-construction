@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 import '../styles/global.scss';
 import { NavDropDown } from './Navdropdown'
 import Image from 'next/image'
+import { Menu, X } from 'lucide-react'
 
 
 
@@ -26,10 +27,10 @@ const Navbar = () => {
         
         <div className="flex lg:gap-12 justify-start lg:justify-center w-full px-2">
           <Link href='/' className={cn(
-                "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500"
+                "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#0860B3]"
               )}><span className="!cursor-pointe">
                 <Image
-                  src="/assets/images/logo1.png"
+                  src="/assets/images/logo5.png"
                   width={300}
                   height={300}
                   alt="hydra construction logo"
@@ -47,14 +48,14 @@ const Navbar = () => {
               key={idx} 
               href={navItem.link}
               className={cn(
-                "hidden lg:flex relative dark:text-slate-50 items-center space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500"
+                "hidden lg:flex relative dark:text-slate-50 items-center space-x-1 text-slate-50  hover:text-[#54acff]"
               )}
             >
               <span className="!cursor-pointer">{navItem.name}</span>
             </Link>
           ))}
-          <Link href="/">
-          <Button className="w-[180px] h-[45px] text-lg mt-2 bg-[#2796ff] hidden lg:flex">Contact</Button>
+          <Link href="tel:+6474724119">
+          <Button className="w-[220px] h-[50px] text-lg bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call Us 647-898-1023</Button>
           </Link>
 
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">
@@ -70,23 +71,25 @@ const Navbar = () => {
 
         <nav className="lg:hidden">
     <input type="checkbox" id="sidebar-active" />
-    <label htmlFor="sidebar-active" className="open-sidebar-button">
-      <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    <label htmlFor="sidebar-active" className="open-sidebar-button text-slate-50 mt-2">
+      <Menu />
     </label>
     <label id="overlay" htmlFor="sidebar-active"></label>
-    <div className="links-container">
-      <label htmlFor="sidebar-active" className="close-sidebar-button relative left-56">
-        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    <div className="links-container bg-slate-900 text-slate-50">
+      <label htmlFor="sidebar-active" className="close-sidebar-button relative left-56 text-slate-50">
+        {/* <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> */}
+        <X />
+       
       </label>
 
-      <a href="/afterhours">Services</a> 
+      <a href="/afterhours">services</a> 
       <a href="/afterhours">Gallery</a> 
       <a href="/holidayhours">Testimonials</a>
       <a href="/afterhours">Gallery</a> 
-      <a href="/faq">647-898-1023</a>
-      <Link href="/">
-          <Button className="w-[220px] h-[52px] text-lg mt-2">Contact</Button>
+      <Link href="tel:+6474724119">
+          <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">Call Us 647-898-1023</Button>
       </Link>
+ 
       
     </div>
   </nav>

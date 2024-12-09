@@ -3,75 +3,8 @@ import Image from 'next/image'
 import React, { useState } from 'react';
 import { Button } from './ui/button'
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-
-const cards = [
-    { id: 1, title: 'Card 1', description: 'This is the first card' },
-    { id: 2, title: 'Card 2', description: 'This is the second card' },
-    { id: 3, title: 'Card 3', description: 'This is the third card' },
-    { id: 4, title: 'Card 4', description: 'This is the fourth card' },
-    { id: 5, title: 'Card 5', description: 'This is the fifth card' },
-  ];
-
-
-  const servicesData = [
-    {
-        id:1,
-        title:"Sump pump services",
-        src: '/assets/images/service1.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:2,
-        title:"Crack Repairs",
-        src: '/assets/images/service2.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:3,
-        title:"Block Foundation walls",
-        src: '/assets/images/service3.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:4,
-        title:"ICF Foundation walls",
-        src: '/assets/images/service4.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:5,
-        title:"Excavations",
-        src: '/assets/images/service3.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:6,
-        title:"Footings ",
-        src: '/assets/images/service1.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:7,
-        title:"Underpinning lowering",
-        src: '/assets/images/service4.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    },
-    {
-        id:8,
-        title:"Block Foundation walls",
-        src: '/assets/images/service3.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
-        price: '$75-$100 per linear ft.'
-    }
-]
-  
+import { servicesData } from '@/data';
+import Link from 'next/link';
 
 const Services: React.FC = () => {
         const [activeIndex, setActiveIndex] = useState(0);
@@ -92,8 +25,8 @@ const Services: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center lg:mt-28">
         <div className="flex flex-col items-center justify-center text-center  gap-2">
-            <p className="text-base lg:text-xl font-extrabold text-[#0860B3]">OUR CORE SERVICES</p>
-            <p className="font-bold text-2xl lg:text-6xl">Protect your space year round</p>
+            <p className="text-base  lg:text-xl font-extrabold text-[#0860B3]">OUR CORE SERVICES</p>
+            <p className="font-bold text-2xl md:text-4xl lg:text-6xl">What Services We Offer</p>
         </div>
 
         <section className="flex flex-wrap justify-center lg:hidden gap-2 mt-12 px-2">
@@ -116,11 +49,11 @@ const Services: React.FC = () => {
             ))}
         </section>
 
-        <div className="relative max-w-[60%] max-h-full mx-auto mt-12">
+        <div className="relative max-w-[90%] xl:max-w-[65%] max-h-full mx-auto mt-12">
       {/* Carousel Wrapper */}
       <div className="overflow-hidden">
         <div
-          className="hidden md:flex transition-transform duration-500 gap-4"
+          className="hidden lg:flex transition-transform duration-500 gap-4"
           style={{
             transform: `translateX(-${(activeIndex * 100) / visibleCards}%)`,
           }}
@@ -148,25 +81,25 @@ const Services: React.FC = () => {
       {/* Navigation Buttons */}
       <button
         onClick={handlePrev}
-        className="hidden md:flex absolute top-1/2 left-0 transform -translate-x-[120%] -translate-y-1/2 rounded-full p-2 text-slate-900"
+        className="hidden lg:flex absolute top-1/2 left-0 transform -translate-x-[120%] -translate-y-1/2 rounded-full p-2 text-slate-900"
       >
         <ChevronLeft size={40} />
       </button>
       <button
         onClick={handleNext}
-        className="hidden md:flex absolute top-1/2 right-0 transform translate-x-[120%] -translate-y-1/2 rounded-full p-2 text-slate-900"
+        className="hidden lg:flex absolute top-1/2 right-0 transform translate-x-[120%] -translate-y-1/2 rounded-full p-2 text-slate-900"
       >
         <ChevronRight size={40} />
       </button>
     </div>
 
-        <div className="flex flex-col md:flex-row justify-between w-full bg-slate-900 lg:h-[150px] items-center lg:px-20 mt-16 py-20 lg:py-2 gap-6 text-center lg:text-left">
+        <div className="flex flex-col md:flex-row justify-between w-full bg-slate-900 lg:h-[150px] items-center md:px-20 mt-16 py-20 lg:py-2 gap-6 text-center md:text-left">
             <div className="flex flex-col text-slate-50">
                 <p className="text-xl lg:text-2xl font-bold">GET YOUR FREE WATERPROOFING</p>
                 <p className="text-xl lg:text-2xl font-bold">SERVICE ESTIMATE NOW</p>
             </div>
 
-            <Button className="border-white border-2 h-[60px] w-[280px] text-lg">Request a free estimate</Button>
+            <Link href="mailto:hydraguardconstruction@gmail.com"><Button className="border-white border-2 h-[60px] w-[280px] text-lg">Request a free estimate</Button></Link>
         </div>
     </div>
   )
