@@ -82,10 +82,11 @@ const Navbar = () => {
        
       </label>
 
+      
       <a href="/#services">services</a> 
-      <a href="/gallery">Our Work</a> 
-      <a href="/testimonials">Testimonials</a>
-      <a href="/faq">FAQ</a> 
+      <a href="/#gallery">Our Work</a> 
+      <a href="/#testimonials">Testimonials</a>
+      <a href="/#faq">FAQ</a> 
       <Link href="tel:+6474724119">
           <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">Call Us 647-898-1023</Button>
       </Link>
