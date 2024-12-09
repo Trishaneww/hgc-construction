@@ -4,7 +4,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col justify-center items-center lg:mt-28 gap-12 py-12 lg:py-28">
+    <div className="flex flex-col justify-center items-center lg:mt-28 gap-12 mt-24 py-12 lg:py-28">
         <div className="flex flex-col gap-2 items-center justify-center">
             <p className="text-base lg:text-xl font-extrabold text-[#2796ff]">TESTIMONIALS</p>
             <p className="text-3xl lg:text-6xl font-bold text-slate-950 ">Hear From Our Clients</p>
