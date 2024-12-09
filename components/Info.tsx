@@ -3,6 +3,7 @@ import React from 'react'
 import { Button } from './ui/button'
 import { Hammer, MoveRight, Phone } from 'lucide-react'
 import Link from 'next/link'
+import '../styles/global.scss';
 
 const Info = () => {
   return (
@@ -13,12 +14,12 @@ const Info = () => {
                 width={800}
                 height={800}
                 alt="logo image"
-                className="w-full md:max-w-[500px] lg:max-w-[450px]"
+                className="w-full md:max-w-[500px] lg:max-w-[450px] xl:max-w-[520px]"
             />
             <div className="flex flex-col gap-6 lg:w-[33%] text-lg">
                 <div className="flex flex-col gap-2">
-                    <p className="text-base lg:text-xl font-extrabold text-[#54acff]">WHY CHOOSE US</p>
-                    <p className="font-bold text-3xl lg:text-5xl text-slate-50">Committed To Give Quality Water Proofing</p>
+                    <p className="text-base lg:text-xl font-extrabold text-[#54acff] secondary">WHY CHOOSE US</p>
+                    <p className="font-bold text-3xl lg:text-5xl text-slate-50 secondary">Committed To Give Quality Water Proofing</p>
                 </div>
                 <p className="text-left text-base lg:text-lg text-slate-50">We assess your property’s unique needs, design tailored solutions, and execute with precision to prevent leaks, moisture intrusion, and structural damage. Whether it’s proactive waterproofing or addressing an existing issue, we’re here to provide peace of mind and a dry, secure space for years to come.</p>
 

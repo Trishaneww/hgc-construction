@@ -5,6 +5,7 @@ import { Button } from './ui/button'
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { servicesData } from '@/data';
 import Link from 'next/link';
+import '../styles/global.scss';
 
 const Services: React.FC = () => {
         const [activeIndex, setActiveIndex] = useState(0);
@@ -25,8 +26,8 @@ const Services: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center lg:mt-28">
         <div className="flex flex-col items-center justify-center text-center  gap-2">
-            <p className="text-base  lg:text-xl font-extrabold text-[#0860B3]">OUR CORE SERVICES</p>
-            <p className="font-bold text-3xl md:text-4xl lg:text-6xl">What Services We Offer</p>
+            <p className="text-base  lg:text-xl font-extrabold text-[#0860B3] secondary">OUR CORE SERVICES</p>
+            <p className="font-bold text-3xl md:text-4xl lg:text-6xl secondary">What Services We Offer</p>
         </div>
 
         <section className="flex flex-wrap justify-center lg:hidden gap-2 mt-12 px-2">

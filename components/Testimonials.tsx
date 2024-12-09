@@ -1,13 +1,14 @@
 import { testimonials } from '@/data'
 import Image from 'next/image'
 import React from 'react'
+import '../styles/global.scss';
 
 const Testimonials = () => {
   return (
     <div className="flex flex-col justify-center items-center lg:mt-28 gap-12 mt-12 py-12 lg:py-28">
         <div className="flex flex-col gap-2 items-center justify-center">
-            <p className="text-base lg:text-xl font-extrabold text-[#2796ff]">TESTIMONIALS</p>
-            <p className="text-3xl lg:text-6xl font-bold text-slate-950 ">Hear From Our Clients</p>
+            <p className="text-base lg:text-xl font-extrabold text-[#2796ff] secondary">TESTIMONIALS</p>
+            <p className="text-3xl lg:text-6xl font-bold text-slate-950 secondary">Hear From Our Clients</p>
         </div>
 
         <section className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6 px-6 lg:p-2">
