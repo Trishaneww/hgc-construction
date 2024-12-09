@@ -24,7 +24,7 @@ const Gallery: React.FC = () => {
         };
   return (
     <div className="flex flex-col justify-center items-center mt-28 lg:mt-40">
-        <div className="flex flex-col items-center justify-center text-center  gap-2">
+        <div className="flex flex-col items-center justify-center text-center px-4 gap-2">
             <p className="text-base  lg:text-xl font-extrabold text-[#0860B3]">OUR WORK</p>
             <p className="font-bold text-2xl md:text-4xl lg:text-6xl">Explore Our Proven Waterproofing Solutions</p>
         </div>
