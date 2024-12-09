@@ -82,10 +82,6 @@ const Navbar = () => {
        
       </label>
 
-      <label htmlFor="sidebar-active" className="close-sidebar-button">
-      <a href="/#testimonials">Testimonials</a>
-      </label>
-
       <a href="/#services">services</a> 
       <a href="/#gallery">Our Work</a> 
       <a href="/#testimonials">Testimonials</a>
