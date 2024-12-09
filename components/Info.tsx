@@ -13,12 +13,12 @@ const Info = () => {
                 width={800}
                 height={800}
                 alt="logo image"
-                className="w-full md:max-w-[500px] lg:max-w-[650px]"
+                className="w-full md:max-w-[500px] lg:max-w-[450px]"
             />
             <div className="flex flex-col gap-6 lg:w-[33%] text-lg">
                 <div className="flex flex-col gap-2">
                     <p className="text-base lg:text-xl font-extrabold text-[#54acff]">WHY CHOOSE US</p>
-                    <p className="font-bold text-2xl lg:text-5xl text-slate-50">Committed To Give Quality Water Proofing</p>
+                    <p className="font-bold text-3xl lg:text-5xl text-slate-50">Committed To Give Quality Water Proofing</p>
                 </div>
                 <p className="text-left text-base lg:text-lg text-slate-50">We assess your property’s unique needs, design tailored solutions, and execute with precision to prevent leaks, moisture intrusion, and structural damage. Whether it’s proactive waterproofing or addressing an existing issue, we’re here to provide peace of mind and a dry, secure space for years to come.</p>
 
@@ -43,7 +43,7 @@ const Info = () => {
                         <p className="font-bold">Internal Solution</p>
                     </div>
                 </div> */}
-                <div className="flex flex-col lg:flex-row justify-start  items-start lg:items-center lg:mt-20 gap-6">
+                <div className="flex flex-col xl:flex-row justify-start  items-start xl:items-center xl:mt-20 gap-6">
                 <Link href="/#estimate"><Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[250px] h-[50px] lg:h-[60px] lg:w-[280px] text-base lg:text-lg">Request a free estimate <MoveRight /></Button></Link>
 
                 <div className="flex justify-center items-center gap-4">
