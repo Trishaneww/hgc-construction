@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Link href="tel:+6474724119">
-          <Button className="w-[220px] h-[50px] text-lg bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call Us 647-898-1023</Button>
+          <Button className="w-[220px] h-[50px] text-base bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call Us 647-898-1023</Button>
           </Link>
 
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">
@@ -82,7 +82,6 @@ const Navbar = () => {
        
       </label>
 
-      
       <a href="/#services">services</a> 
       <a href="/#gallery">Our Work</a> 
       <a href="/#testimonials">Testimonials</a>

@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 import { useToast } from "@/components/hooks/use-toast"
 import Link from 'next/link';
 import contactform from '../public/assets/images/form.png';
+import '../styles/global.scss';
 
 
 const ContactForm = () => {
@@ -59,10 +60,14 @@ const ContactForm = () => {
 
       <section className="flex flex-col">
 
-      <div className="flex flex-col gap-2 px-4 text-center xl:text-left xl:px-2">
+      {/* <div className="flex flex-col gap-2 px-4 text-center xl:text-left xl:px-2">
         <p className="text-2xl md:text-4xl font-semibold lg:text-6xl">Receive a Free Estimate</p>
         <p className="text-base md:text-lg">Have a project in mind that you think we would be a great fit for? We’d love to connect with you and learn more!</p>
-      </div>
+      </div> */}
+       <div className="flex flex-col gap-2 px-4 text-center xl:text-left xl:px-2">
+            <p className="text-base  lg:text-xl font-extrabold text-[#0860B3] secondary">BOOK AN APPOINTMENT</p>
+            <p className="font-bold text-3xl md:text-4xl lg:text-6xl secondary">Receive a Free Estimate</p>
+        </div>
 
 
       <form className="w-full flex flex-col items-center xl:items-start  gap-4 -mt-4 px-2" onSubmit={sendEmail}>

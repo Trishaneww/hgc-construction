@@ -2,12 +2,19 @@
 @use "./partials/variables" as *;
 @use "./partials/colors" as *;
 @use "./partials/paddings" as *;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Racing+Sans+One&display=swap');
 
 * {
     margin:0;
     padding:0;
     box-sizing:border-box;
     scroll-behavior: smooth;
+}
+
+.secondary {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
