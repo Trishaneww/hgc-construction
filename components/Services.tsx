@@ -26,7 +26,7 @@ const Services: React.FC = () => {
     <div className="flex flex-col justify-center items-center lg:mt-28">
         <div className="flex flex-col items-center justify-center text-center  gap-2">
             <p className="text-base  lg:text-xl font-extrabold text-[#0860B3]">OUR CORE SERVICES</p>
-            <p className="font-bold text-2xl md:text-4xl lg:text-6xl">What Services We Offer</p>
+            <p className="font-bold text-3xl md:text-4xl lg:text-6xl">What Services We Offer</p>
         </div>
 
         <section className="flex flex-wrap justify-center lg:hidden gap-2 mt-12 px-2">
@@ -49,7 +49,7 @@ const Services: React.FC = () => {
             ))}
         </section>
 
-        <div className="relative max-w-[90%] xl:max-w-[65%] max-h-full mx-auto mt-12">
+        <div className="relative max-w-[90%] lg:max-w-[88%] xl:max-w-[65%] max-h-full mx-auto mt-12">
       {/* Carousel Wrapper */}
       <div className="overflow-hidden">
         <div
