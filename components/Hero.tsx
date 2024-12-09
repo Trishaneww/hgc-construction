@@ -35,24 +35,25 @@ const Hero = () => {
     }
   }
   return (
-    <div className="flex flex-col items-center justify-center mt-20 bg-white">
+    <div className="flex flex-col items-center justify-center mt-20 bg-slate-900 text-slate-50 overflow-hidden">
       <div className="flex flex-col lg:flex-row w-full">
-        <section className="flex flex-col justify-center items-center lg:items-start lg:w-2/3 text-center lg:text-left gap-4 lg:pl-64 mt-20 lg:mt-0 mb-20 lg:mb-0">
+        <section className="flex flex-col justify-center items-center lg:items-start lg:w-2/3 text-center lg:text-left gap-4 lg:pl-60 mt-20 lg:mt-0 mb-20 lg:mb-0">
           <p className="text-2xl lg:text-7xl font-bold">Your Trusted Water Proofing Company</p>
           <p>At HydraGuard Construction, we specialize in protecting your home or business from water damage with expert waterproofing solutions. </p>
-          <Button className="w-[300px] h-[52px] text-lg bg-[#0860B3]">Get a free estimate</Button>
+          <Button className="w-[300px] h-[52px] text-lg bg-[#2796ff]">Get a free estimate</Button>
         </section>
         <Image
           src="/assets/images/homepage2.png"
           width={2000}
           height={2000}
           alt="homepage image" 
+          className="max-w-[1100px]"
         />
       </div>
 
-      <div className="bg-sky-100 flex flex-col lg:flex-row w-full justify-center items-center py-12 px-6">
+      <div className="flex flex-col lg:flex-row w-full justify-center items-center py-12 px-6 bg-[#2796ff]">
         <Image
-          src="/assets/images/logo2.png"
+          src="/assets/images/logo3.png"
           width={400}
           height={400}
           alt="homepage image" 

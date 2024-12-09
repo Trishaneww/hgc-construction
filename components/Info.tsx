@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 const Info = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-20 bg-sky-100">
+    <div className="flex flex-col items-center justify-center py-20">
         <div className="flex flex-col items-center justify-center text-center  gap-2">
             <p className="text-base lg:text-xl font-extrabold text-blue-700">WHY US</p>
             <p className="font-bold text-2xl lg:text-6xl">Always your first choice</p>

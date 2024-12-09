@@ -22,7 +22,7 @@ const About = () => {
                 <p>At HydraGuard Construction , we specialize in protecting your home or business from water damage with expert waterproofing solutions.</p>
                 <p>Whether it’s proactive waterproofing or addressing an existing issue, we’re here to provide peace of mind and a dry, secure space for years to come</p>
             </div>
-            <Button className="w-[220px] h-[52px] text-lg bg-[#0860B3] mt-6">Contact us</Button>
+            <Button className="w-[220px] h-[52px] text-lg bg-[#2796ff] mt-6">Contact us</Button>
         </section>
 
     </div>

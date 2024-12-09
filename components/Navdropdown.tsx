@@ -18,10 +18,10 @@ import { resources } from "@/data"
  
 export function NavDropDown() {
   return (
-    <NavigationMenu className="mt-8 hidden lg:flex">
+    <NavigationMenu className="mt-[1.8rem] hidden lg:flex">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-base font-normal">Services</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-base font-normal bg-slate-900 text-slate-50">Services</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-wrap w-[200px] md:w-[250px]  gap-1 p-2 md:p-4">
               {resources.map((component) => (

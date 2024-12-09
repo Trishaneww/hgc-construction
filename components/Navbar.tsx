@@ -22,11 +22,11 @@ const Navbar = () => {
 
   
   return (
-    <div className="flex w-full justify-between lg:justify-center items-center h-[80px]  px-6 md:p-6 backdrop-blur-md navbar self-center scroll-smooth z-10 fixed mb-20 bg-white">
+    <div className="flex w-full justify-between lg:justify-center items-center h-[80px]  px-6 md:p-6 backdrop-blur-md navbar self-center scroll-smooth z-10 fixed mb-20 bg-slate-900">
         
         <div className="flex lg:gap-12 justify-start lg:justify-center w-full px-2">
           <Link href='/' className={cn(
-                "relative dark:text-slate-50 items-center flex space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
+                "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500"
               )}><span className="!cursor-pointe">
                 <Image
                   src="/assets/images/logo1.png"
@@ -47,14 +47,14 @@ const Navbar = () => {
               key={idx} 
               href={navItem.link}
               className={cn(
-                "hidden lg:flex relative dark:text-slate-50 items-center space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
+                "hidden lg:flex relative dark:text-slate-50 items-center space-x-1 text-slate-50 dark:hover:text-slate-300 hover:text-slate-500"
               )}
             >
               <span className="!cursor-pointer">{navItem.name}</span>
             </Link>
           ))}
           <Link href="/">
-          <Button className="w-[180px] h-[45px] text-lg mt-2 bg-[#0860B3] hidden lg:flex">Contact</Button>
+          <Button className="w-[180px] h-[45px] text-lg mt-2 bg-[#2796ff] hidden lg:flex">Contact</Button>
           </Link>
 
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">
