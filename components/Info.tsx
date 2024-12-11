@@ -53,7 +53,7 @@ const Info = () => {
                     </div>
                     <div className="flex flex-col text-slate-50">
                         <p>Call Us 24/7</p>
-                        <>678-909-8787</>
+                        <>416-895-5543</>
                     </div>
                 </div>
 

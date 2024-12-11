@@ -156,40 +156,18 @@ export const testimonials = [
   },
   {
     id:1,
-    name:"Paul Allen",
-    email:'paulallen1@gmail.com',
+    name:"Mario Stevens",
+    email:'mariost@gmail.com',
     src: '/assets/images/headshot2.png',
-    desc:'“We had persistent leaks in our basement, and it was starting to damage our belongings. This team came in, assessed the problem, and implemented a drainage system that works like a charm! Our basement has been dry ever since. Highly recommend!”',
+    desc:'“The crew was punctual, professional, and really knew their stuff. They waterproofed our foundation quickly, and the results have been incredible. No more water pooling near our home after heavy rains!”',
 },
 {
   id:1,
-  name:"Paul Allen",
-  email:'paulallen1@gmail.com',
+  name:"Mariana Desouza",
+  email:'marianadsouza1@gmail.com',
   src: '/assets/images/headshot3.png',
-  desc:'“We had persistent leaks in our basement, and it was starting to damage our belongings. This team came in, assessed the problem, and implemented a drainage system that works like a charm! Our basement has been dry ever since. Highly recommend!”',
-},
-{
-  id:1,
-  name:"Paul Allen",
-  email:'paulallen1@gmail.com',
-  src: '/assets/images/headshot3.png',
-  desc:'“We had persistent leaks in our basement, and it was starting to damage our belongings. This team came in, assessed the problem, and implemented a drainage system that works like a charm! Our basement has been dry ever since. Highly recommend!”',
-},
-{
-  id:1,
-  name:"Paul Allen",
-  email:'paulallen1@gmail.com',
-  src: '/assets/images/headshot1.png',
-  desc:'“We had persistent leaks in our basement, and it was starting to damage our belongings. This team came in, assessed the problem, and implemented a drainage system that works like a charm! Our basement has been dry ever since. Highly recommend!”',
-},
-{
-  id:1,
-  name:"Paul Allen",
-  email:'paulallen1@gmail.com',
-  src: '/assets/images/headshot2.png',
-  desc:'“We had persistent leaks in our basement, and it was starting to damage our belongings. This team came in, assessed the problem, and implemented a drainage system that works like a charm! Our basement has been dry ever since. Highly recommend!”',
-}
-]
+  desc:'““Finding a company we could trust was a big concern for us. These guys exceeded all expectations. They waterproofed our roof with care and precision, and their warranty gave us extra peace of mind."',
+}]
 
 export const navItems = [
   { name: "Our Work", link: "#gallery" },
