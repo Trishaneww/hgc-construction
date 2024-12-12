@@ -3,58 +3,65 @@ export const servicesData = [
         id:1,
         title:"Sump pump services",
         src: '/assets/images/service1.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Sump pumps are a critical component in keeping your basement dry. We offer professional sump pump installation, regular maintenance, and timely repairs to ensure your system operates efficiently when you need it most.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"Crack Repairs",
         src: '/assets/images/service2.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Foundation cracks can lead to leaks, mold, and even structural instability if left unchecked. Our crack repair services involve advanced sealing methods to restore your foundations strength and prevent future problems.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"Block Foundation walls",
         src: '/assets/images/service3.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Our block foundation wall services offer unmatched strength and reliability for your construction needs. Built with precision, these walls provide excellent support and longevity, making them ideal for both residential and commercial projects.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"ICF Foundation walls",
         src: '/assets/images/service4.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Insulated Concrete Form (ICF) foundation walls are an innovative solution for energy efficiency and durability. Our ICF services deliver walls that provide superior insulation, noise reduction, and long-lasting performance, ideal for modern building projects.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"Excavations",
         src: '/assets/images/service3.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'From preparing foundations to landscaping needs, our excavation services are precise and thorough. We handle every project with care, ensuring the site is ready for safe and efficient construction.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"Footings ",
         src: '/assets/images/service1.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Footings are the cornerstone of any stable structure. We specialize in designing and installing footings that provide a strong, durable base for your home or commercial building, ensuring long-term stability.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"Underpinning lowering",
         src: '/assets/images/service4.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Increase the value and functionality of your home by underpinning or lowering your basement. Our expert services provide additional headroom and improve structural stability, making your basement safer and more livable.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"Block Foundation walls",
+        title:"Internal Solution",
         src: '/assets/images/service3.png',
-        desc:'Protect your home from water damage with our reliable basement waterproofing services. We utilize advanced techniques like interior drainage systems, sump pumps, and vapor barriers to prevent moisture infiltration and keep your basement dry and safe.',
+        desc:'Protect your home from water damage with interior waterproofing solutions designed to redirect water away from your basement using drainage systems and sump pumps',
         price: '$75-$100 per linear ft.'
-    }
+    },
+    {
+      id:1,
+      title:"External Solution",
+      src: '/assets/images/service3.png',
+      desc:'Safeguard your property with durable exterior waterproofing that creates a barrier to prevent water infiltration into your foundation.',
+      price: '$75-$100 per linear ft.'
+  }
 ]
 
 export const faqData = [

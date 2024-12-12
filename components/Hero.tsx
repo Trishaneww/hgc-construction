@@ -62,8 +62,8 @@ const Hero = () => {
           className="hidden lg:flex lg:-ml-10 ml-0 lg:mt-0 max-w-[250px] lg:max-w-[320px]"
         />
 
-        <section className="flex flex-col gap-2 lg:w-1/3 lg:mt-0 text-center lg:text-left">
-          <p className="font-bold text-3xl lg:text-4xl">Welcome to Hydra Guard Construction in Oakville, ON</p>
+        <section className="flex flex-col gap-2 lg:w-1/3 xl:w-[40%] lg:mt-0 text-center lg:text-left">
+          <p className="font-bold text-3xl lg:text-4xl">Welcome to Hydra Guard Construction</p>
           <p className="text-base lg:text-lg">Our skilled, fully-insured, and licensed waterproofing experts arrive with all the tools and expertise needed to protect your property from water damage—ensuring the job is done right the first time.</p>
           <form className="flex flex-wrap justify-center lg:justify-start w-full gap-4 mt-6" onSubmit={sendEmail}>
           <div className="flex flex-col items-start w-full lg:w-[270px]">

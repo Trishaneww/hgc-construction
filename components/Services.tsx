@@ -50,7 +50,7 @@ const Services: React.FC = () => {
             ))}
         </section>
 
-        <div className="relative max-w-[90%] lg:max-w-[88%] xl:max-w-[65%] max-h-full mx-auto mt-12">
+        <div className="relative max-w-[90%] lg:max-w-[88%] xl:max-w-[65%] xl:min-w-[1100px] max-h-full mx-auto mt-12">
       {/* Carousel Wrapper */}
       <div className="overflow-hidden">
         <div
@@ -60,7 +60,7 @@ const Services: React.FC = () => {
           }}
         >
             {servicesData.map((service, idx) => (
-            <div className="flex flex-col w-full h-[510px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/3.1)] bg-white border-[1px] border-gray-300 gap-2 shadow-lg" key={idx}>
+            <div className="flex flex-col w-full h-[620px] xl:h-[510px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/3.1)] bg-white border-[1px] border-gray-300 gap-2 shadow-lg" key={idx}>
             <Image
              src={service.src}
              width={1000}
@@ -71,7 +71,7 @@ const Services: React.FC = () => {
          />
          <div className="flex flex-col p-2 px-6">
              <p className="text-2xl font-bold">{service.title}</p>
-             <p>{service.desc}</p>
+             <p className="h-[240px] xl:h-[170px] mt-2">{service.desc}</p>
              <p className="font-bold mt-4">{service.price}</p>
          </div>
      </div>
