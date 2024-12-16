@@ -11,7 +11,7 @@ const Gallery: React.FC = () => {
         const [activeIndex, setActiveIndex] = useState(0);
       
         const visibleCards = 4; // Number of visible cards at a time
-        const mobileVisibleCards = 2;
+        const mobileVisibleCards = 1;
 
         const handlePrev2 = () => {
           setActiveIndex((prevIndex) =>
@@ -96,7 +96,7 @@ const Gallery: React.FC = () => {
               width={1000}
               height={1000}
               alt="logo image"
-              className="min-w-[calc(100%/2.1)]"
+              className="min-w-[calc(100%/1.05)]"
               key={idx}
             />
           ))}
