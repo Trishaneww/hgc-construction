@@ -113,7 +113,6 @@ export const galleryImages = [
 {
   src: '/assets/images/s8.png',
 },
-,
 {
   src: '/assets/images/s17.png',
 },
