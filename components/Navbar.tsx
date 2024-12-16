@@ -54,7 +54,7 @@ const Navbar = () => {
               <span className="!cursor-pointer">{navItem.name}</span>
             </Link>
           ))}
-          <Link href="tel:+4168955543">
+          <Link href="tel:416-895-5543">
           <Button className="w-[220px] h-[50px] text-base bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call us 416-895-5543</Button>
           </Link>
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">
@@ -87,7 +87,7 @@ const Navbar = () => {
       <a href="/#gallery">Our Work</a> 
       <a href="/#testimonials">Testimonials</a>
       <a href="/#faq">FAQ</a> 
-      <Link href="tel:+4168955543">
+      <Link href="tel:416-895-5543">
           <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">Call us 416-895-5543</Button>
       </Link>
     </div>
