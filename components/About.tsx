@@ -17,7 +17,7 @@ const About = () => {
 
         <section className="flex flex-col gap-2 lg:w-[25%]">
             <div className="flex flex-col gap-2">
-                <p className="text-base lg:text-xl font-extrabold text-[#0860B3]">ABOUT US</p>
+                <p className="text-base lg:text-xl font-extrabold text-[#0860B3] secondary">ABOUT US</p>
                 <p className="font-bold text-3xl lg:text-5xl secondary">We’ll Save You Money & Time On Water Proofing!</p>
             </div>
             <div className="flex flex-col gap-4 mt-6">

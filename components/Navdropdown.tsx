@@ -22,7 +22,7 @@ export function NavDropDown() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="text-base font-normal bg-slate-900 text-slate-50">Services</NavigationMenuTrigger>
-          <NavigationMenuContent>
+          <NavigationMenuContent className="bg-red-900 border-none">
             <ul className="flex flex-wrap w-[200px] md:w-[250px] gap-1 p-2 md:p-4 bg-slate-900">
               {resources.map((component) => (
                 <a href={component.link} key={component.id} className="w-full lg:w-4/5 p-2 text-slate-50">{component.title}</a>

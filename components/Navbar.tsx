@@ -24,18 +24,18 @@ const Navbar = () => {
   
   return (
     <div className="flex w-full justify-between lg:justify-center items-center h-[80px]  px-6 md:p-6 backdrop-blur-md navbar self-center scroll-smooth z-10 fixed mb-20 bg-slate-900">
-        
         <div className="flex lg:gap-12 justify-start lg:justify-center w-full px-2">
           <Link href='/' className={cn(
                 "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#0860B3]"
-              )}><span className="!cursor-pointe">
-                <Image
-                  src="/assets/images/logo5.png"
-                  width={300}
-                  height={300}
-                  alt="hydra construction logo"
-                  className="-ml-6 mt-[1px]"
-                />
+              )}>
+                <span className="!cursor-pointe">
+                  <Image
+                    src="/assets/images/logo5.png"
+                    width={300}
+                    height={300}
+                    alt="hydra construction logo"
+                    className="-ml-6 mt-[1px]"
+                  />
               </span>
           </Link>
 
@@ -55,15 +55,12 @@ const Navbar = () => {
             </Link>
           ))}
           <Link href="tel:+4168955543">
-          <Button className="w-[220px] h-[50px] text-base bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call Us 416-895-5543</Button>
+          <Button className="w-[220px] h-[50px] text-base bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call us 416-895-5543</Button>
           </Link>
-
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">
             <NavDropDown />
           </div> */}
         </div>
-
-
 {/* 
         <Link href="/" className="hidden lg:flex">
         <Button className="w-[150px]">Book Now</Button>
@@ -82,16 +79,16 @@ const Navbar = () => {
        
       </label>
 
-      <label htmlFor="sidebar-active" className="close-sidebar-button">
+      {/* <label htmlFor="sidebar-active" className="close-sidebar-button">
       <a href="/#testimonials">Testimonials</a>
-      </label>
+      </label> */}
 
-      <a href="/#services">services</a> 
+      <a href="/#services">Services</a> 
       <a href="/#gallery">Our Work</a> 
       <a href="/#testimonials">Testimonials</a>
       <a href="/#faq">FAQ</a> 
       <Link href="tel:+4168955543">
-          <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">Call Us 416-895-5543</Button>
+          <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">Call us 416-895-5543</Button>
       </Link>
     </div>
   </nav>
