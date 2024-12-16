@@ -48,9 +48,11 @@ const Info = () => {
                 <Link href="/#estimate"><Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[250px] h-[50px] lg:h-[60px] lg:w-[280px] text-base lg:text-lg">Request a free estimate <MoveRight /></Button></Link>
 
                 <div className="flex justify-center items-center gap-4">
+                    <Link href="tel:416-895-5543">
                     <div className="flex justify-center items-center h-[62px] w-[62px] rounded-full bg-[#0860B3] text-slate-50">
                         <Phone />
                     </div>
+                    </Link>
                     <div className="flex flex-col text-slate-50">
                         <p>Call Us 24/7</p>
                         <>416-895-5543</>
