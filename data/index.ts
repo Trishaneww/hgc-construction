@@ -76,6 +76,29 @@ export const galleryImages = [
   src: '/assets/images/s3.png',
 },
 {
+  src: '/assets/images/s9.png',
+},
+{
+  src: '/assets/images/s10.png',
+},
+{
+  src: '/assets/images/s11.png',
+},
+{
+  src: '/assets/images/s12.png',
+},{
+  src: '/assets/images/s13.png',
+},
+{
+  src: '/assets/images/s14.png',
+},
+{
+  src: '/assets/images/s15.png',
+},
+{
+  src: '/assets/images/s16.png',
+},
+{
   src: '/assets/images/s4.png',
 },
 {
@@ -90,28 +113,7 @@ export const galleryImages = [
 {
   src: '/assets/images/s8.png',
 },
-{
-  src: '/assets/images/s9.png',
-},
-{
-  src: '/assets/images/s10.png',
-},
-{
-  src: '/assets/images/s11.png',
-},{
-  src: '/assets/images/s12.png',
-},{
-  src: '/assets/images/s13.png',
-},
-{
-  src: '/assets/images/s14.png',
-},
-{
-  src: '/assets/images/s15.png',
-},
-{
-  src: '/assets/images/s16.png',
-},
+,
 {
   src: '/assets/images/s17.png',
 },
