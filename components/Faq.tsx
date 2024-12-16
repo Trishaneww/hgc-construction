@@ -11,10 +11,10 @@ import '../styles/global.scss';
 
 const Faq = () => {
   return (
-    <div className="mt-20 lg:mt-24 pb-36 scroll-smooth bg-slate-100">
+    <div className="mt-20 lg:mt-36 pb-36 scroll-smooth bg-slate-100">
         <section className="flex flex-col gap-6 items-center mb-10 text-center w-full">
             <h1 className="text-slate-800  text-3xl md:text-5xl lg:text-6xl font-semibold secondary">Have Any Questions?</h1>
-            <p className="text-slate-500 w-full lg:text-xl secondary">Have any further questions? Contact us at <span className="text-blue-700"><Link href="/">hydraguardconstruction@gmail.com</Link></span></p>
+            <p className="text-slate-500 w-full lg:text-xl secondary">Have any further questions? Contact us at <span className="text-[#0860B3]"><Link href="mailto:hydraguardconstruction@gmail.com">hydraguardconstruction@gmail.com</Link></span></p>
         </section>
 
         <div className="flex justify-center gap-6 w-full p-4">

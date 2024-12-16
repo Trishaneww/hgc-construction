@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
                 <p className="text-slate-50 font-semibold text-lg">Services</p>
                 {servicesData2.map((link, idx) => (
-                    <Link href='/services/#services' className="text-slate-50" key={idx}>
+                    <Link href='/#services' className="text-slate-50" key={idx}>
                         <p className="text-lg">{link.title}</p>
                     </Link>
                 ))}
@@ -66,7 +66,7 @@ const Footer = () => {
                 <p className="text-slate-50 font-semibold text-lg">Contact</p>
                 <a href="mailto:hydraguardconstruction@gmail.com" className="text-lg" target="_blank">hydraguardconstruction@gmail.com</a>
                 <a href="https://www.instagram.com/figmentstudioss" className="text-lg" target="_blank">@hydraguardconstruction</a>
-                <p className="text-lg">647-898-1023</p>
+                <p className="text-lg">416-895-5543</p>
             </div>
 
             {/* <section className="flex flex-col gap-2 lg:w-1/3 lg:mt-0 text-center lg:text-left text-slate-50">
