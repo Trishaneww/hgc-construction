@@ -251,7 +251,7 @@ export const testimonials = [
   name:"Mariana Desouza",
   email:'marianadsouza1@gmail.com',
   src: '/assets/images/headshot3.png',
-  desc:'““Finding a company we could trust was a big concern for us. These guys exceeded all expectations. They waterproofed our roof with care and precision, and their warranty gave us extra peace of mind."',
+  desc:'“Finding a company we could trust was a big concern for us. These guys exceeded all expectations. They waterproofed our roof with care and precision, and their warranty gave us extra peace of mind."',
 }]
 
 export const navItems = [
