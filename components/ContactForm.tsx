@@ -130,10 +130,6 @@ const ContactForm = () => {
           <Button type="submit" className="bg-[#0860B3] h-[60px] text-lg px-10 mt-6">Request a Free Estimate</Button>
         </form>
       </section>
-    
-    
-    
-  
     </div>
   )
 }
