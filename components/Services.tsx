@@ -30,37 +30,9 @@ const Services: React.FC = () => {
             <p className="font-bold text-3xl md:text-4xl lg:text-6xl secondary">What Services We Offer</p>
         </div>
 
-        <section className="flex flex-wrap justify-center lg:hidden gap-2 mt-12 px-2">
-            {servicesData.map((services, idx) => (
-                <div className="flex flex-col  w-full max-w-[320px]  h-[420px] bg-white border-[1px] border-gray-300 gap-2 shadow-lg" key={idx}>
-                       <Image
-                        src={services.src}
-                        width={1000}
-                        height={1000}
-                        alt="logo image"
-                        className="h-[180px]"
-                       
-                    />
-                    <div className="flex flex-col p-2 px-2">
-                        <p className="text-xl font-bold">{services.title}</p>
-                        <p className="text-sm">{services.desc}</p>
-                        <p className="text-sm font-bold mt-4">{services.price}</p>
-                    </div>
-                </div>
-            ))}
-        </section>
-
-        <div className="relative max-w-[90%] lg:max-w-[88%] xl:max-w-[65%] xl:min-w-[1100px] max-h-full mx-auto mt-12">
-      {/* Carousel Wrapper */}
-      <div className="overflow-hidden">
-        <div
-          className="hidden lg:flex transition-transform duration-500 gap-4"
-          style={{
-            transform: `translateX(-${(activeIndex * 100) / visibleCards}%)`,
-          }}
-        >
-            {servicesData.map((service, idx) => (
-            <div className="flex flex-col w-full h-[620px] xl:h-[510px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/3.1)] bg-white border-[1px] border-gray-300 gap-2 shadow-lg" key={idx}>
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center place-items-center gap-4 mt-12">
+        {servicesData.map((service, idx) => (
+            <div className="flex flex-col justify-between w-full h-[620px] xl:h-[510px]  max-w-[320px] lg:max-w-[400px]  bg-white border-[1px] border-gray-300 gap-2 shadow-lg" key={idx}>
             <Image
              src={service.src}
              width={1000}
@@ -72,27 +44,14 @@ const Services: React.FC = () => {
          <div className="flex flex-col p-2 px-6">
              <p className="text-2xl font-bold">{service.title}</p>
              <p className="h-[240px] xl:h-[170px] mt-2">{service.desc}</p>
-             <p className="font-bold mt-4">{service.price}</p>
+             {/* <p className="font-bold mt-4">{service.price}</p> */}
          </div>
+         <Link className="text-base text-center bg-[#0860B3] text-white py-2" href='/'>Read More</Link>
      </div>
           ))}
-        </div>
-      </div>
+        </section>
 
-      {/* Navigation Buttons */}
-      <button
-        onClick={handlePrev}
-        className="hidden lg:flex absolute top-1/2 left-0 transform -translate-x-[120%] -translate-y-1/2 rounded-full p-2 text-slate-900"
-      >
-        <ChevronLeft size={40} />
-      </button>
-      <button
-        onClick={handleNext}
-        className="hidden lg:flex absolute top-1/2 right-0 transform translate-x-[120%] -translate-y-1/2 rounded-full p-2 text-slate-900"
-      >
-        <ChevronRight size={40} />
-      </button>
-    </div>
+        
 
         <div className="flex flex-col md:flex-row justify-between w-full bg-slate-900 lg:h-[150px] items-center md:px-20 mt-16 py-20 lg:py-2 gap-6 text-center md:text-left">
             <div className="flex flex-col text-slate-50">
@@ -100,7 +59,7 @@ const Services: React.FC = () => {
                 <p className="text-xl lg:text-2xl font-bold">SERVICE ESTIMATE NOW</p>
             </div>
 
-            <Link href="mailto:hydraguardconstruction@gmail.com"><Button className="border-white border-2 h-[60px] w-[280px] text-lg">Request a free estimate</Button></Link>
+            <Link href="mailto:hydraguardconstruction@gmail.com"><Button className="border-white border-2 h-[60px] w-[270px] text-base">REQUEST A FREE QUOTE</Button></Link>
         </div>
     </div>
   )

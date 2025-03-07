@@ -7,6 +7,7 @@ import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Info from "@/components/Info";
 import Navbar from "@/components/Navbar";
+import Navbar2 from "@/components/Navbar2";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import { Toaster } from "@/components/ui/toaster";
@@ -16,6 +17,7 @@ import { Toaster } from "@/components/ui/toaster";
 const Home = () => {
   return (
     <div className="flex flex-col bg-slate-100 scroll-smooth">
+      <Navbar2 />
       <Navbar />
       <Hero />
       <About />

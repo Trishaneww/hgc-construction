@@ -15,13 +15,13 @@ const Testimonials = () => {
             {testimonials.map((testimonial, idx) => (
                 <div className="flex flex-col h-[260px] md:h-[230px] w-full md:w-[440px] gap-2 bg-white p-4 px-6 rounded-xl border-gray-200 border-[1px]" key={idx}>
                     <section className="flex gap-2">
-                    <Image
+                    {/* <Image
                         src={testimonial.src}
                         width={70}
                         height={70}
                         alt="logo image"
                         className="max-w-[50px] max-h-[50px] rounded-full"
-                    />
+                    /> */}
 
                     <div className="flex flex-col gap-2">
                         <p className="font-bold">{testimonial.name}</p>

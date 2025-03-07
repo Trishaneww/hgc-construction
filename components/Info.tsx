@@ -10,7 +10,7 @@ const Info = () => {
     <div className="flex flex-col items-center justify-center bg-slate-900 py-6 lg:py-36">
         <section className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-12 mt-20 px-6">
             <Image
-                src="/assets/images/service2.png"
+                src="/assets/images/info.png"
                 width={800}
                 height={800}
                 alt="logo image"
@@ -45,7 +45,7 @@ const Info = () => {
                     </div>
                 </div> */}
                 <div className="flex flex-col xl:flex-row justify-start  items-start xl:items-center xl:mt-20 gap-6">
-                <Link href="/#estimate"><Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[250px] h-[50px] lg:h-[60px] lg:w-[280px] text-base lg:text-lg">Request a free estimate <MoveRight /></Button></Link>
+                <Link href="/#estimate"><Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-base">FREE ESTIMATE & CONSULTATION</Button></Link>
 
                 <div className="flex justify-center items-center gap-4">
                     <Link href="tel:416-895-5543">
@@ -54,7 +54,7 @@ const Info = () => {
                     </div>
                     </Link>
                     <div className="flex flex-col text-slate-50">
-                        <p>Call Us 24/7</p>
+                        <p>CALL US 24/7</p>
                         <>416-895-5543</>
                     </div>
                 </div>

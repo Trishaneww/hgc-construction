@@ -1,65 +1,65 @@
 export const servicesData = [
     {
         id:1,
-        title:"Sump pump services",
+        title:"Sump Pump Installation",
         src: '/assets/images/g10.png',
-        desc:'Sump pumps are a critical component in keeping your basement dry. We offer professional sump pump installation, regular maintenance, and timely repairs to ensure your system operates efficiently when you need it most.',
+        desc:'Avoid basement flooding with reliable sump pump installation. We install durable pumps to keep your basement dry by efficiently removing water, safeguarding your property from moisture damage.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"Crack Repairs",
+        title:"Foundation Crack Repair",
         src: '/assets/images/g3.png',
-        desc:'Foundation cracks can lead to leaks, mold, and even structural instability if left unchecked. Our crack repair services involve advanced sealing methods to restore your foundations strength and prevent future problems.',
+        desc:'Quickly address and repair foundation cracks. Our expert team inspects and seals cracks to prevent water penetration and structural damage, ensuring the integrity of your foundation.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"Block Foundation walls",
+        title:"Concrete Work Services",
         src: '/assets/images/g7.png',
-        desc:'Our block foundation wall services offer unmatched strength and reliability for your construction needs. Built with precision, these walls provide excellent support and longevity, making them ideal for both residential and commercial projects.',
+        desc:'From foundations to walkways, we specialize in delivering durable and aesthetically pleasing concrete work that stands the test of time. Get a quote today for concrete slabs, driveways, and walkways.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"ICF Foundation walls",
+        title:"ICF Foundation",
         src: '/assets/images/g1.png',
-        desc:'Insulated Concrete Form (ICF) foundation walls are an innovative solution for energy efficiency and durability. Our ICF services deliver walls that provide superior insulation, noise reduction, and long-lasting performance, ideal for modern building projects.',
+        desc:'Insulated Concrete Forms (ICF) foundations offer superior strength and energy efficiency. We install ICF systems to provide durable, well-insulated foundations that help reduce energy costs while increasing structural stability.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
         title:"Excavations",
         src: '/assets/images/g8.png',
-        desc:'From preparing foundations to landscaping needs, our excavation services are precise and thorough. We handle every project with care, ensuring the site is ready for safe and efficient construction.',
+        desc:'Professional excavation services for residential and commercial projects. From trench digging for plumbing to full-site clearing, our team ensures precise and safe excavation for any project.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"Footings ",
+        title:"Demolition",
         src: '/assets/images/g6.png',
-        desc:'Footings are the cornerstone of any stable structure. We specialize in designing and installing footings that provide a strong, durable base for your home or commercial building, ensuring long-term stability.',
+        desc:'Safe, efficient demolition services for homes, buildings, and structures. We handle all aspects of the demolition process, including debris removal and site preparation, ensuring compliance and safety throughout.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"Underpinning lowering",
+        title:"Basement Lowers/Underpinning",
         src: '/assets/images/g9.png',
-        desc:'Increase the value and functionality of your home by underpinning or lowering your basement. Our expert services provide additional headroom and improve structural stability, making your basement safer and more livable.',
+        desc:'We extend your basements height, creating additional living space or improving foundation strength, with professional care and compliance. Raise the value of your property with basement lowering or underpinning.',
         price: '$75-$100 per linear ft.'
     },
     {
         id:1,
-        title:"Internal Solution",
+        title:"Internal Waterproofing",
         src: '/assets/images/g5.png',
-        desc:'Protect your home from water damage with interior waterproofing solutions designed to redirect water away from your basement using drainage systems and sump pumps',
+        desc:'Our systems redirect water away from interior walls and floors, preventing dampness, mold, and foundation damage inside your home. Keep your basement dry and protected with internal waterproofing.',
         price: '$75-$100 per linear ft.'
     },
     {
       id:1,
-      title:"External Solution",
+      title:"External Waterproofing",
       src: '/assets/images/g2.png',
-      desc:'Safeguard your property with durable exterior waterproofing that creates a barrier to prevent water infiltration into your foundation.',
+      desc:'We seal the exterior of your foundation to prevent water infiltration, protecting your home from leaks and moisture-related issues. Safeguard your property from water damage with external waterproofing.',
       price: '$75-$100 per linear ft.'
   }
 ]
@@ -255,8 +255,8 @@ export const testimonials = [
 }]
 
 export const navItems = [
-  { name: "Our Work", link: "#gallery" },
-  { name: "Testimonials", link: "/#testimonials" },
+  { name: "OUR WORK", link: "#gallery" },
+  { name: "TESTIMONIALS", link: "/#testimonials" },
   { name: "FAQ", link: "/#faq" },
 ];
 

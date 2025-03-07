@@ -40,7 +40,7 @@ const Footer = () => {
     <div className="flex flex-col xl:justify-center xl:items-center gap-40 px-6 w-full  bg-slate-900 footer py-20">
         <section className="flex flex-col gap-4 justify-start -mb-20 xl:mb-0 footer-header">
             <h1 className="text-slate-50 font-bold text-3xl xl:text-4xl">Hydra Guard Construction</h1>
-            <p className="text-slate-50 mb-9 xl:mb-0 text-lg">@2024 Hydra GuardConstruction. All rights reserved</p>
+            <p className="text-slate-50 mb-9 xl:mb-0 text-lg">@2025 Hydra GuardConstruction. All rights reserved</p>
         </section>
 
         <section className="flex gap-12 items-start flex-wrap">
