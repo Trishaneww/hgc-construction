@@ -14,48 +14,49 @@ import { Menu, X } from 'lucide-react'
 
 
 const Navbar = () => {
-
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
   
   return (
-    <div className="flex w-full justify-between lg:justify-center items-center h-[80px]  px-6 md:p-6 backdrop-blur-md navbar self-center scroll-smooth z-10 fixed mb-20 bg-slate-900">
-        <div className="flex lg:gap-12 justify-start lg:justify-center w-full px-2">
-          <Link href='/' className={cn(
-                "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50  hover:text-[#0860B3]"
-              )}>
-                <span className="!cursor-pointe">
-                  <Image
-                    src="/assets/images/logo5.png"
-                    width={300}
-                    height={300}
-                    alt="hydra construction logo"
-                    className="-ml-6 mt-[1px]"
-                  />
-              </span>
-          </Link>
-
-          {/* <Link href='/'><span className="text-l font-bold">Argus Doctors</span>
-          </Link> */}
-         
-         <NavDropDown />
-          {navItems.map((navItem: any, idx: number) => (
-            <Link 
-              key={idx} 
-              href={navItem.link}
-              className={cn(
-                "hidden lg:flex relative dark:text-slate-50 items-center space-x-1 text-slate-50  hover:text-[#54acff]"
-              )}
-            >
-              <span className="!cursor-pointer">{navItem.name}</span>
+    <div className="flex w-full justify-between lg:justify-center items-center h-[80px] px-6 md:p-6 backdrop-blur-md navbar self-center scroll-smooth z-10 bg-slate-900">
+        <div className="flex lg:gap-12 justify-start lg:justify-between w-full px-8">
+          <div className="flex gap-6">
+            <Link href='/' className={cn(
+                  "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50"
+                )}>
+                  <span className="!cursor-pointer secondary mr-8 text-xl font-bold">
+                  <span className="text-[#439aec]">H</span>YDRA <span className="text-[#439aec]">G</span>UARD <span className="text-[#439aec]">C</span>ONSTRUCTION
+                    {/* <Image
+                      src="/assets/images/logo4.png"
+                      width={300}
+                      height={300}
+                      alt="hydra construction logo"
+                      className="-ml-6 mt-[1px]"
+                    /> */}
+                </span>
             </Link>
-          ))}
-          <Link href="tel:416-895-5543">
-          <Button className="w-[220px] h-[50px] text-base bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">Call us 416-895-5543</Button>
+
+            {/* <Link href='/'><span className="text-l font-bold">Argus Doctors</span>
+            </Link> */}
+          
+          <NavDropDown />
+            {navItems.map((navItem: any, idx: number) => (
+              <Link 
+                key={idx} 
+                href={navItem.link}
+                className={cn(
+                  "hidden lg:flex relative dark:text-slate-50 items-center  text-slate-50  hover:text-[#54acff]"
+                )}
+              >
+                <span className="!cursor-pointer text-sm">{navItem.name}</span>
+              </Link>
+            ))}
+          </div>
+          <Link href="#estimate">
+          <Button className="w-[250px] h-[50px] text-sm bg-[#0860B3] hidden lg:flex hover:bg-white hover:text-slate-950">FREE ESTIMATE & CONSULTATION</Button>
           </Link>
           {/* <div className="hidden lg:flex gap-4 items-start justify-start w-[500px]">
             <NavDropDown />
@@ -83,12 +84,12 @@ const Navbar = () => {
       <a href="/#testimonials">Testimonials</a>
       </label> */}
 
-      <a href="/#services">Services</a> 
-      <a href="/#gallery">Our Work</a> 
-      <a href="/#testimonials">Testimonials</a>
+      <a href="/#services">SERVICES</a> 
+      <a href="/#gallery">OUR WORK</a> 
+      <a href="/#testimonials">TESTIMONIALS</a>
       <a href="/#faq">FAQ</a> 
       <Link href="tel:416-895-5543">
-          <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">Call us 416-895-5543</Button>
+          <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">CALL US 416-895-5543</Button>
       </Link>
     </div>
   </nav>

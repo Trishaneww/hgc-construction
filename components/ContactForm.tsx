@@ -127,13 +127,9 @@ const ContactForm = () => {
             <p className="flex justify-start text-slate-900">Message</p>
             <textarea placeholder="Tell us more about your project" name="message" className="w-full border-[1px] h-[230px] border-slate-200 p-2 rounded-md outline-none"/>
           </div>      
-          <Button type="submit" className="bg-[#0860B3] h-[60px] text-lg px-10 mt-6">Request a Free Estimate</Button>
+          <Button type="submit" className="bg-[#0860B3] mt-6 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-base">FREE ESTIMATE & CONSULTATION</Button>
         </form>
       </section>
-    
-    
-    
-  
     </div>
   )
 }
