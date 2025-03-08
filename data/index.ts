@@ -227,6 +227,11 @@ export const companyData = [
     id:1,
     name: 'FAQ',
     link:'/#faq'
+  },
+  {
+    id:1,
+    name: 'Liftime Warranty',
+    link:'/lifetime-warranty'
   }
 ]
 

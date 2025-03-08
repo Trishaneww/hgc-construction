@@ -60,7 +60,7 @@ const Hero = () => {
             </Link>
 
         </div>
-          <p className="text-4xl lg:text-5xl xl:text-7xl font-bold secondary lg:w-2/3">Strong Foundations, Dry Homes – Your <span className="text-[#368bda]">Trusted</span> Waterproofing Experts</p>
+          <p className="text-4xl lg:text-5xl xl:text-7xl font-bold secondary lg:w-2/3 lg:min-w-[900px]">Strong Foundations, Dry Homes – Your <span className="text-[#368bda]">Trusted</span> Waterproofing Experts</p>
           <p className="text-base lg:text-lg lg:w-1/2 mt-2">At HydraGuard Construction, we specialize in protecting your home or business from water damage with expert waterproofing solutions. </p>
           <Link href="/#estimate"><Button className="w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-base bg-[#0860B3] hover:bg-white hover:text-slate-950 mt-6">FREE ESTIMATE & CONSULTATION</Button></Link>
         </section>
