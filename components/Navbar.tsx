@@ -27,16 +27,16 @@ const Navbar = () => {
             <Link href='/' className={cn(
                   "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50"
                 )}>
-                  <span className="!cursor-pointer secondary mr-8 text-xl font-bold">
-                  <span className="text-[#439aec]">H</span>YDRA <span className="text-[#439aec]">G</span>UARD <span className="text-[#439aec]">C</span>ONSTRUCTION
+                  <span className="!cursor-pointer secondary mr-8 text-lg lg:text-2xl font-bold">
+                  <span className="text-[#439aec]">H</span>ydra<span className="text-[#439aec]">G</span>uard <span className="text-[#439aec]">C</span>onstruction
                     {/* <Image
-                      src="/assets/images/logo4.png"
+                      src="/assets/images/logo.png"
                       width={300}
                       height={300}
                       alt="hydra construction logo"
                       className="-ml-6 mt-[1px]"
                     /> */}
-                </span>
+                </span> 
             </Link>
 
             {/* <Link href='/'><span className="text-l font-bold">Argus Doctors</span>
@@ -86,7 +86,6 @@ const Navbar = () => {
 
       <a href="/#services">SERVICES</a> 
       <a href="/#gallery">OUR WORK</a> 
-      <a href="/#testimonials">TESTIMONIALS</a>
       <a href="/#faq">FAQ</a> 
       <Link href="tel:416-895-5543">
           <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">CALL US 416-895-5543</Button>

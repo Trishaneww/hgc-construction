@@ -11,7 +11,7 @@ import '../styles/global.scss';
 
 const Faq = () => {
   return (
-    <div className="mt-20 lg:mt-2 pb-36 scroll-smooth bg-slate-100">
+    <div className="lg:mt-28 mt-12 py-12 lg:py-36 scroll-smooth bg-slate-100">
         <section className="flex flex-col gap-6 items-center mb-10 text-center w-full">
             <h1 className="text-slate-800  text-3xl md:text-5xl lg:text-6xl font-semibold secondary">Have Any Questions?</h1>
             <p className="text-slate-500 w-full lg:text-xl secondary">Have any further questions? Contact us at <span className="text-[#0860B3]"><Link href="mailto:hydraguardconstruction@gmail.com">hydraguardconstruction@gmail.com</Link></span></p>
@@ -50,7 +50,7 @@ const Faq = () => {
             </AccordionItem>
 
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 2'}>
-                <AccordionTrigger className="lg:text-xl text-left">Why should I work with Hydra Guard?</AccordionTrigger>
+                <AccordionTrigger className="lg:text-xl text-left">Why should I work with HGConstruction?</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>When it comes to waterproofing your home, you want a company you can trust, with a proven track record of delivering top-notch service. Heres why we stand out:</p>
                         <ul className="list-decimal">
