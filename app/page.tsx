@@ -27,9 +27,9 @@ const Home = () => {
       <div id="gallery">
       </div>
       <Gallery />
-      <div id="testimonials">
+      {/* <div id="testimonials">
       </div>
-      <Testimonials />
+      <Testimonials /> */}
       <div id="faq">
       </div>
       <Faq />

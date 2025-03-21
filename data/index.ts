@@ -218,11 +218,11 @@ export const companyData = [
     name: 'Gallery',
     link:'/#gallery'
   },
-  {
-    id:3,
-    name: 'Testimonials',
-    link:'/testimonials'
-  },
+  // {
+  //   id:3,
+  //   name: 'Testimonials',
+  //   link:'/testimonials'
+  // },
   {
     id:1,
     name: 'FAQ',

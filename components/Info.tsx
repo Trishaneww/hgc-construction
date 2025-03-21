@@ -33,7 +33,7 @@ const Info = () => {
             and a dry, secure space for years to come.
           </p>
 
-          <div className="flex justify-start items-start xl:items-center xl:mt-20 gap-6">
+          <div className="flex flex-col lg:flex-row justify-start items-start xl:items-center xl:mt-20 gap-6">
             <Link href="/#estimate">
               <Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-base">
                 FREE ESTIMATE & CONSULTATION

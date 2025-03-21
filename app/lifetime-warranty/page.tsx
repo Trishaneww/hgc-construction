@@ -14,86 +14,77 @@ const LifetimeWarranty = () => {
       <Navbar />
       <Hero2 />
       <div className="flex items-center justify-center">
-      <div className="flex flex-col text-lg mt-12 lg:w-[64%] px-6">
-        <div className="flex items-center justify-center gap-2 mb-8">
-                    <Link href="/lifetime-warranty">
-                        <Image
-                            width={150}
-                            height={150}
-                            src="/assets/images/badge1.png"
-                            alt="lifetime warranty badge"
-                        />
-                    </Link>
-        
-                    <Link href="/lifetime-warranty">
-                        <Image
-                            width={150}
-                            height={150}
-                            src="/assets/images/badge2.png"
-                            alt="lifetime warranty badge"
-                        />
-                    </Link>
-        
-                </div>
-        <ul className="flex flex-col gap-2">
-          <li className="">
-            <span className="font-bold">
-            Utility Contact & Stakeout:
-            </span>
-            <p>Hydra Guard Construction contacts all utilities and performs a stakeout before excavation.</p>
-          </li>
-          <li>
-            <span className="font-bold">
-            Exposure & Cleaning:
-            </span>
-            <p>Once the foundation walls and footing are exposed, the surfaces are cleaned for optimal bonding with concrete parge.</p>
-          </li>
-          <li>
-            <span className="font-bold">
-            Crack & Void Repair:
-            </span>
-            <p>All cracks and voids in the foundation are filled with hydraulic cement, and the walls are coated with concrete.</p>
-          </li>
-          <li>
-            <span className="font-bold">Waterproofing Application:</span><p>Aqua-Bloc 720-38 is applied to the foundation wall and footing for enhanced waterproofing.</p>
-          </li>
-          <li>
-            <span className="font-bold">
-            Drainage Mat Installation: 
-            </span>
-            <p>A Delta MS plastic drainage mat is installed down to the footing to improve drainage.</p>
-          </li>
-          <li>
-            <span className="font-bold">
-            Weeping Tile Installation: 
-            </span>
-            <p>New weeping tile is placed, connected to the drainage system, and surrounded by clean ¾” gravel.</p>
-          </li>
-          <li>
-            <span className="font-bold">
-            Backfilling & Compaction: 
-            </span>
-            <p>Soil is backfilled and compacted to prevent future settlement.</p>
-          </li>
-          <li>
-            <span className="font-bold">
-            Site Cleanup: 
-            </span>
-            <p>All debris is removed, and finished surface materials and landscaping are restored.</p>
-          </li>
-        </ul>
+        <div className="flex flex-col text-lg mt-12 lg:w-[64%] px-6">
+          <div className="flex flex-col gap-2">
+            <p>
+              At HydraGuard Construction, we stand by our work and offer a
+              Lifetime Waterproofing Warranty for all interior and exterior
+              basement waterproofing systems we install. Our goal is to provide
+              long-term protection and peace of mind, ensuring your home stays
+              dry.
+            </p>
 
-        <p className="mt-8">Waterproofing is crucial when foundations leak or allow moisture. Common causes include:</p>
-        <ul className="flex flex-col list-disc ml-12 mt-4">
-            <li>Clogged weeping tiles</li>
-            <li>Vertical and/or horizontal cracks in the foundation</li>
-            <li>Block separation</li>
-            <li>Voids where the foundation and footing meet</li>
-        </ul>
+            <p className="font-bold">What’s Covered</p>
 
+            <p>
+              This warranty applies to waterproofing systems installed on
+              foundation walls made of poured concrete, concrete block, brick,
+              stone, or ICF. If our waterproofing system fails due to a defect
+              in workmanship, we will repair the affected area at no cost to
+              you.
+            </p>
 
-        <p className="mt-4">These issues allow water to seep into the basement, making waterproofing necessary.</p>
-      </div>
+            <p className="font-bold mt-8">What’s Not Covered</p>
+
+            <p>
+            While we guarantee our waterproofing system, certain conditions are
+            beyond our control, including:
+          </p>
+          </div>
+
+         
+          <ul className="flex flex-col list-disc ml-12 mt-4">
+            <li>
+              Structural movement, settling, or foundation cracks beyond normal
+              tolerances.
+            </li>
+            <li>
+              Water intrusion from windows, doors, sump pump failure, or over
+              the foundation wall.
+            </li>
+            <li>
+              Poor drainage, including defective gutters, downspouts, or
+              landscaping issues.
+            </li>
+            <li>
+              Modifications to the foundation or waterproofing system made after
+              installation.
+            </li>
+            <li>Mold, mildew, or air quality issues.</li>
+          </ul>
+
+          <div className="flex flex-col gap-2 mt-8">
+            <p className="font-bold">Filing a Claim</p>
+
+            <p>
+              If you experience water intrusion, notify us within 30 days of
+              discovering the issue. We will assess the problem and determine
+              the best course of action.
+            </p>
+
+            <p className="font-bold">Warranty Transfer</p>
+
+            <p>
+              This warranty is transferable to one subsequent owner if requested
+              in writing within 60 days of property transfer.
+            </p>
+
+            <p>
+              Our Lifetime Waterproofing Warranty ensures your home remains
+              protected. Contact us today for more details!
+            </p>
+          </div>
+        </div>
       </div>
       <ContactForm />
       <Footer />
