@@ -12,7 +12,7 @@ const Navbar2 = () => {
           <p>+1 (416) 895-5543</p>
         </Link>
         <Link href="/lifetime-warranty">Lifetime Warranty</Link>
-        <Link href="/lifetime-warranty">Price Match Gaurantee</Link>
+        <Link href="/price-match">Price Match Gaurantee</Link>
       </div>
 
       <div className="flex items-center gap-2">

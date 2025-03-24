@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { servicesData } from '@/data';
 import Link from 'next/link';
 import '../styles/global.scss';
+import ImageSlider from './ImageSlider';
 
 const Services: React.FC = () => {
         const [activeIndex, setActiveIndex] = useState(0);
@@ -23,6 +24,25 @@ const Services: React.FC = () => {
             prevIndex === servicesData.length - visibleCards ? 0 : prevIndex + 1
           );
         };
+
+
+        const [currentIndex, setCurrentIndex] = useState(0);
+
+        const images = [
+          "assets/images/g2.png",
+          "assets/images/g3.png",
+          "assets/images/g4.png",
+          "assets/images/g2.png",
+        ];
+
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+
   return (
     <div className="flex flex-col justify-center items-center lg:mt-28">
         <div className="flex flex-col items-center justify-center text-center  gap-2">
@@ -33,14 +53,15 @@ const Services: React.FC = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center place-items-center gap-4 mt-12">
         {servicesData.map((service, idx) => (
             <div className="flex flex-col justify-between w-full h-[500px] xl:h-[460px]  max-w-[320px] lg:max-w-[400px]  bg-white border-[1px] border-gray-300 gap-2 shadow-lg" key={idx}>
-            <Image
+            {/* <Image
              src={service.src}
              width={1000}
              height={1000}
              alt="logo image"
              className="h-[220px] min-h-[220px]"
             
-         />
+         /> */}
+        <ImageSlider images={service.images} />
          <div className="flex flex-col p-2 px-6">
              <p className="text-2xl font-bold">{service.title}</p>
              <p className="h-[240px] xl:h-[170px] mt-2">{service.desc}</p>
