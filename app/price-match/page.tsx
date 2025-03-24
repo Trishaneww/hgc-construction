@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Hero2 from "@/components/Hero2";
+import Hero3 from "@/components/Hero3";
 import Navbar from "@/components/Navbar";
 import Navbar2 from "@/components/Navbar2";
 import Image from "next/image";
@@ -12,7 +13,7 @@ const PriceMatch = () => {
     <div className="flex flex-col bg-slate-100 scroll-smooth overflow-x-hidden">
       <Navbar2 />
       <Navbar />
-      <Hero2 />
+      <Hero3 />
       <div className="flex items-center justify-center">
         <div className="flex flex-col text-lg mt-12 lg:w-[64%] px-6">
           <div className="flex flex-col gap-2">
