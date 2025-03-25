@@ -47,9 +47,9 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="flex flex-col xl:flex-row items-center justify-center gap-24 bg-slate-100 pb-28 py-28">
+    <div className="flex flex-col xl:flex-row items-center justify-center gap-24 bg-slate-100 pb-28 py-24">
 
-      <section className="min-w-[320px] w-1/4 xl:min-w-[400px]">
+      <section className="min-w-[350px] w-1/4 xl:min-w-[400px]">
         <Image
           src={contactform}
           alt="contact form process"
@@ -127,7 +127,7 @@ const ContactForm = () => {
             <p className="flex justify-start text-slate-900">Message</p>
             <textarea placeholder="Tell us more about your project" name="message" className="w-full border-[1px] h-[230px] border-slate-200 p-2 rounded-md outline-none"/>
           </div>      
-          <Button type="submit" className="bg-[#0860B3] mt-6 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-base">FREE ESTIMATE & CONSULTATION</Button>
+          <Button type="submit" className="bg-[#0860B3] mt-6 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-sm lg:text-base">FREE ESTIMATE & CONSULTATION</Button>
         </form>
       </section>
     </div>

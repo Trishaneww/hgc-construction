@@ -64,7 +64,7 @@ const Services: React.FC = () => {
         <ImageSlider images={service.images} />
          <div className="flex flex-col p-2 px-6">
              <p className="text-2xl font-bold">{service.title}</p>
-             <p className="h-[240px] xl:h-[170px] mt-2">{service.desc}</p>
+             <p className="h-[240px] xl:h-[170px] mt-2 text-base">{service.desc}</p>
              {/* <p className="font-bold mt-4">{service.price}</p> */}
          </div>
          {/* <Link className="text-base text-center bg-[#0860B3] text-white py-2" href='/'>Read More</Link> */}

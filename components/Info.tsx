@@ -35,7 +35,7 @@ const Info = () => {
 
           <div className="flex flex-col lg:flex-row justify-start items-start xl:items-center xl:mt-20 gap-6">
             <Link href="/#estimate">
-              <Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-base">
+              <Button className="flex gap-4 bg-[#0860B3] hover:bg-white hover:text-slate-950 text-slate-50 w-[290px] h-[50px] lg:h-[60px] lg:w-[310px] text-sm lg:text-base">
                 FREE ESTIMATE & CONSULTATION
               </Button>
             </Link>
@@ -46,7 +46,7 @@ const Info = () => {
                   <Phone />
                 </div>
               </Link>
-              <div className="flex flex-col text-slate-50">
+              <div className="flex flex-col text-slate-50 text-sm lg:text-base">
                 <p>CALL US 24/7</p>
                 <>416-895-5543</>
               </div>
