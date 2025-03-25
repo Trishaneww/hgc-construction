@@ -20,7 +20,7 @@ const Faq = () => {
         <div className="flex justify-center gap-6 w-full p-4">
             <Accordion type="single" collapsible className="flex flex-col gap-4 w-full md:w-4/5 xl:w-3/5">
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 1'}>
-                <AccordionTrigger className="lg:text-xl text-left">Why is my foundation leaking?</AccordionTrigger>
+                <AccordionTrigger className="text-base lg:text-xl text-left">Why is my foundation leaking?</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>Here are the most common reasons why foundations leak:</p>
                         <ul className="list-decimal">
@@ -50,7 +50,7 @@ const Faq = () => {
             </AccordionItem>
 
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 2'}>
-                <AccordionTrigger className="lg:text-xl text-left">Why should I work with HGConstruction?</AccordionTrigger>
+                <AccordionTrigger className="text-base lg:text-xl text-left">Why should I work with HGConstruction?</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>When it comes to waterproofing your home, you want a company you can trust, with a proven track record of delivering top-notch service. Heres why we stand out:</p>
                         <ul className="list-decimal">
@@ -75,7 +75,7 @@ const Faq = () => {
             </AccordionItem>
 
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 3'}>
-                <AccordionTrigger className="lg:text-xl text-left">What’s the difference between exterior and interior foundation waterproofing?</AccordionTrigger>
+                <AccordionTrigger className="text-base lg:text-xl text-left">What’s the difference between exterior and interior foundation waterproofing?</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>When it comes to waterproofing your home, you want a company you can trust, with a proven track record of delivering top-notch service. Heres why we stand out:</p>
                         <ul className="list-decimal">
@@ -92,14 +92,14 @@ const Faq = () => {
             </AccordionItem>
 
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 4'}>
-                <AccordionTrigger className="lg:text-xl text-left">Why should I consider basement waterproofing?</AccordionTrigger>
+                <AccordionTrigger className="text-base lg:text-xl text-left">Why should I consider basement waterproofing?</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>The key to protecting your home from the damaging effects of leaks, whether from a foundation, drain, or pipe issue, is proper basement waterproofing. Ideally, this should be done during the initial construction of your home. Unfortunately, some contractors may cut corners and skip this crucial step to reduce costs, leaving your home vulnerable. Many older homes, in particular, may have never had waterproofing in place. Homeowners with basements should make waterproofing a priority—not only to safeguard their property but to avoid the expensive repairs that could arise in the future.</p>
                     </AccordionContent>
             </AccordionItem>
 
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 5'}>
-                <AccordionTrigger className="lg:text-xl text-left">Boost your home's value with professional wet basement repair</AccordionTrigger>
+                <AccordionTrigger className="text-base lg:text-xl text-left">Boost your home's value with professional wet basement repair</AccordionTrigger>
                     <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>Trying to fix a wet basement caused by a leaking pipe, drain, or foundation issue with temporary repairs is a short-term solution. Until the root cause of the leak is identified and resolved, you’re unlikely to be free from water damage. Wet basement repairs can quickly become a costly, ongoing expense if not done properly, leading to repeated repairs. That’s why it's essential to work with a skilled waterproofing company that can tackle the core issue. Without addressing the source of the problem, you'll continue to face the high costs of repairs for as long as you own the property.</p>
                     </AccordionContent>

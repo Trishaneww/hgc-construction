@@ -22,12 +22,12 @@ const Navbar = () => {
   
   return (
     <div className="flex w-full justify-between lg:justify-center items-center h-[80px] px-6 md:p-6 backdrop-blur-md navbar self-center scroll-smooth z-10 bg-slate-900">
-        <div className="flex lg:gap-12 justify-start lg:justify-between w-full px-8">
+        <div className="flex lg:gap-12 justify-start lg:justify-between w-full px-2 lg:px-8">
           <div className="flex gap-6">
             <Link href='/' className={cn(
                   "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50"
                 )}>
-                  <span className="!cursor-pointer secondary mr-8 text-lg lg:text-2xl font-bold">
+                  <span className="!cursor-pointer secondary mr-8 text-2xl lg:text-2xl font-bold">
                   <span className="text-[#439aec]">H</span>ydra<span className="text-[#439aec]">G</span>uard <span className="text-[#439aec]">C</span>onstruction
                     {/* <Image
                       src="/assets/images/logo.png"
@@ -84,11 +84,11 @@ const Navbar = () => {
       <a href="/#testimonials">Testimonials</a>
       </label> */}
 
-      <a href="/#services">SERVICES</a> 
-      <a href="/#gallery">OUR WORK</a> 
-      <a href="/#faq">FAQ</a> 
+      <a href="/#services" className="text-sm">SERVICES</a> 
+      <a href="/#gallery" className="text-sm">OUR WORK</a> 
+      <a href="/#faq" className="text-sm">FAQ</a> 
       <Link href="tel:416-895-5543">
-          <Button className="w-[220px] h-[52px] text-lg mt-2 bg-[#0860B3]">CALL US 416-895-5543</Button>
+          <Button className="w-[220px] h-[52px] text-sm mt-2 bg-[#0860B3]">CALL US 416-895-5543</Button>
       </Link>
     </div>
   </nav>
